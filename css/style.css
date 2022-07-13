@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Yeon+Sung&display=swap');
+* {
+    margin : 0;
+    padding : 0;
+}
+
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    font-family:'Noto Sans KR', sans-serif;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+}
+#login-form{
+    margin-top: 30px;  
+
+}
+#login-form .hidden{
+    display: none;
+}
+.hidden {
+    display: none;
+}
+#login-form input{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#login-form input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+#login-form input::content{
+    color: black;
+    font-weight: bold;
+}
+
+
+#greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+/*quote*/
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* todo-form */
+#todo-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#todo-form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    min-width: 420px;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#todo-form input::placeholder{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+/*todo-list*/
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#todo-list button{
+    background-color: transparent;
+    border: none;
+}
+#todo-list span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*wheather*/
+#weather{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+/*배경 사진*/
+.bg {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
